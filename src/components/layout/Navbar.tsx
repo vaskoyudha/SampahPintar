@@ -15,6 +15,7 @@ export default function Navbar() {
         { href: '/laporan', label: t('nav.reports') },
         { href: '/lapor', label: t('nav.report') },
         { href: '/banjir', label: t('nav.flood') },
+        { href: '/sampah-pintar', label: t('nav.sampahPintar') },
     ];
 
     return (

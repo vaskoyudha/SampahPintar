@@ -12,7 +12,8 @@
         "about": "About",
         "nlp": "Documents",
         "flood": "Flood",
-        "coverage": "Data Coverage"
+        "coverage": "Data Coverage",
+        "sampahPintar": "Sampah Pintar"
     },
     "hero": {
         "title": "Is the Water in Your Village Safe?",
@@ -44,5 +45,95 @@
         "cancel": "Cancel",
         "confirm": "Confirm",
         "language": "Language"
+    },
+    "sampahPintar": {
+        "nav": {
+            "beranda": "Home",
+            "dashboard": "Dashboard",
+            "tpa": "TPA",
+            "kebijakan": "Policy",
+            "daurUlang": "Recycling"
+        },
+        "upload": {
+            "title": "Waste Classification",
+            "desc": "Upload a waste photo for analysis or enter composition data manually",
+            "button": "Upload Photo",
+            "classifying": "Classifying...",
+            "result": "Classification Result",
+            "manualEntry": "Enter Manual Data",
+            "manualEntryDesc": "Enter waste composition for your neighborhood",
+            "kelurahan": "Kelurahan",
+            "kecamatan": "Kecamatan",
+            "city": "City",
+            "composition": "Composition (%)",
+            "notes": "Notes (Optional)",
+            "submit": "Submit Data"
+        },
+        "dashboard": {
+            "title": "Waste Composition Dashboard",
+            "desc": "Waste composition per neighborhood based on classification data",
+            "selectCity": "Select City",
+            "selectKelurahan": "Select Neighborhood",
+            "composition": "Composition",
+            "sampleCount": "Sample Count",
+            "period": "Period",
+            "noData": "No data to display yet"
+        },
+        "tpa": {
+            "title": "TPA Capacity Predictor",
+            "desc": "Capacity exhaustion projections for 5 major Indonesian city landfills",
+            "selectCity": "Select City",
+            "capacityUsed": "Capacity Used",
+            "remainingCapacity": "Remaining Capacity",
+            "exhaustionDate": "Estimated Full Date",
+            "yearsRemaining": "Years Remaining",
+            "dailyWaste": "Daily Waste (Tons)",
+            "recyclingRate": "Recycling Rate"
+        },
+        "policy": {
+            "title": "Policy Recommendations",
+            "desc": "AI-powered waste reduction recommendations for local government",
+            "generate": "Generate Recommendations",
+            "generating": "Generating recommendations...",
+            "result": "Recommendation Results",
+            "disclaimer": "This content is AI-generated and for reference only",
+            "target": "Target",
+            "currentRate": "Current Rate",
+            "targetRate": "Target Rate",
+            "action": "Action"
+        },
+        "recycling": {
+            "title": "Recycling Facility Locator",
+            "desc": "Find nearby waste banks and recycling centers",
+            "filterByMaterial": "Filter by Material",
+            "allMaterials": "All Materials",
+            "facilitiesFound": "facilities found",
+            "noFacilities": "No facilities for the selected filter",
+            "bankSampah": "Waste Bank",
+            "tps3r": "TPS3R",
+            "recyclingCenter": "Recycling Center"
+        },
+        "categories": {
+            "organik": "Organic",
+            "organikDesc": "Food scraps, leaves, and natural materials",
+            "plastik": "Plastic",
+            "plastikDesc": "Bottles, bags, and plastic packaging",
+            "kertas": "Paper",
+            "kertasDesc": "Paper, cardboard, and paper products",
+            "logam": "Metal",
+            "logamDesc": "Cans, iron, and other metals",
+            "kaca": "Glass",
+            "kacaDesc": "Glass bottles and glassware",
+            "b3": "B3 (Hazardous)",
+            "b3Desc": "Hazardous and toxic materials",
+            "residu": "Residue",
+            "residuDesc": "Non-recyclable waste"
+        },
+        "common": {
+            "loading": "Loading...",
+            "error": "An error occurred",
+            "retry": "Retry",
+            "noResults": "No results"
+        }
     }
 }

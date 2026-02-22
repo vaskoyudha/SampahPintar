@@ -12,7 +12,8 @@
     "about": "Tentang",
     "nlp": "Dokumen",
     "flood": "Banjir",
-    "coverage": "Cakupan Data"
+    "coverage": "Cakupan Data",
+    "sampahPintar": "Sampah Pintar"
   },
   "hero": {
     "title": "Apakah Air di Desa Anda Aman?",
@@ -134,5 +135,95 @@
     "sort": "Urutkan",
     "export": "Ekspor",
     "language": "Bahasa"
+  },
+  "sampahPintar": {
+    "nav": {
+      "beranda": "Beranda",
+      "dashboard": "Dashboard",
+      "tpa": "TPA",
+      "kebijakan": "Kebijakan",
+      "daurUlang": "Daur Ulang"
+    },
+    "upload": {
+      "title": "Klasifikasi Sampah",
+      "desc": "Unggah foto sampah untuk dianalisis atau isi data komposisi secara manual",
+      "button": "Unggah Foto",
+      "classifying": "Menganalisis...",
+      "result": "Hasil Klasifikasi",
+      "manualEntry": "Masukkan Data Manual",
+      "manualEntryDesc": "Isi komposisi sampah untuk kelurahan Anda",
+      "kelurahan": "Kelurahan",
+      "kecamatan": "Kecamatan",
+      "city": "Kota",
+      "composition": "Komposisi (%)",
+      "notes": "Catatan (Opsional)",
+      "submit": "Kirim Data"
+    },
+    "dashboard": {
+      "title": "Dashboard Komposisi Sampah",
+      "desc": "Komposisi sampah per kelurahan berdasarkan data klasifikasi",
+      "selectCity": "Pilih Kota",
+      "selectKelurahan": "Pilih Kelurahan",
+      "composition": "Komposisi",
+      "sampleCount": "Jumlah Sampel",
+      "period": "Periode",
+      "noData": "Belum ada data untuk ditampilkan"
+    },
+    "tpa": {
+      "title": "Prediksi Kapasitas TPA",
+      "desc": "Proyeksi kapasitas penuh tempat pembuangan akhir untuk 5 kota besar Indonesia",
+      "selectCity": "Pilih Kota",
+      "capacityUsed": "Kapasitas Terpakai",
+      "remainingCapacity": "Sisa Kapasitas",
+      "exhaustionDate": "Estimasi Penuh",
+      "yearsRemaining": "Sisa Waktu (Tahun)",
+      "dailyWaste": "Sampah Harian (Ton)",
+      "recyclingRate": "Tingkat Daur Ulang"
+    },
+    "policy": {
+      "title": "Rekomendasi Kebijakan",
+      "desc": "Rekomendasi pengurangan sampah berbasis AI untuk pemerintah daerah",
+      "generate": "Buat Rekomendasi",
+      "generating": "Membuat rekomendasi...",
+      "result": "Hasil Rekomendasi",
+      "disclaimer": "Konten ini dibuat oleh AI dan hanya untuk referensi",
+      "target": "Target",
+      "currentRate": "Tingkat Saat Ini",
+      "targetRate": "Target Tingkat",
+      "action": "Aksi"
+    },
+    "recycling": {
+      "title": "Lokasi Fasilitas Daur Ulang",
+      "desc": "Temukan bank sampah dan pusat daur ulang terdekat",
+      "filterByMaterial": "Filter berdasarkan Material",
+      "allMaterials": "Semua Material",
+      "facilitiesFound": "fasilitas ditemukan",
+      "noFacilities": "Tidak ada fasilitas untuk filter yang dipilih",
+      "bankSampah": "Bank Sampah",
+      "tps3r": "TPS3R",
+      "recyclingCenter": "Pusat Daur Ulang"
+    },
+    "categories": {
+      "organik": "Organik",
+      "organikDesc": "Sisa makanan, daun, dan bahan alami",
+      "plastik": "Plastik",
+      "plastikDesc": "Botol, kantong, dan kemasan plastik",
+      "kertas": "Kertas",
+      "kertasDesc": "Kertas, karton, dan produk kertas",
+      "logam": "Logam",
+      "logamDesc": "Kaleng, besi, dan logam lainnya",
+      "kaca": "Kaca",
+      "kacaDesc": "Botol kaca dan peralatan kaca",
+      "b3": "B3 (Berbahaya)",
+      "b3Desc": "Bahan berbahaya dan beracun",
+      "residu": "Residu",
+      "residuDesc": "Sampah yang tidak dapat didaur ulang"
+    },
+    "common": {
+      "loading": "Memuat...",
+      "error": "Terjadi kesalahan",
+      "retry": "Coba Lagi",
+      "noResults": "Tidak ada hasil"
+    }
   }
 }
